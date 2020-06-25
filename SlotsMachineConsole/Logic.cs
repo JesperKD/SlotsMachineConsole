@@ -8,7 +8,6 @@ namespace SlotsMachineConsole
 {
     public class Logic
     {
-        public int matches = 0;
         public int slot1 = 0;
         public int slot2 = 0;
         public int slot3 = 0;
@@ -24,7 +23,6 @@ namespace SlotsMachineConsole
             slot1 = random.Next(5);
             slot2 = random.Next(5);
             slot3 = random.Next(5);
-
 
             slotList.Add(slot1);
             slotList.Add(slot2);
